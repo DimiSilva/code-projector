@@ -1,0 +1,35 @@
+{
+  "name": "koa-code-projector",
+  "version": "1.0.3",
+  "description": "Code generator for CRUDs and other things",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimiSilva/koa-code-projector.git"
+  },
+  "keywords": [
+    "code",
+    "builder",
+    "facilities",
+    "code-builder",
+    "CRUDs",
+    "koa"
+  ],
+  "author": "Dimi Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DimiSilva/koa-code-projector/issues"
+  },
+  "homepage": "https://github.com/DimiSilva/koa-code-projector#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.6.8"
+  },
+  "bin": {
+    "codeProjector": "./bin/code-projector.js"
+  },
+  "preferGlobal": true
+}
