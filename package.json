@@ -1,6 +1,6 @@
 {
   "name": "koa-code-projector",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "Code generator for CRUDs and other things",
   "main": "lib/index.js",
   "scripts": {
