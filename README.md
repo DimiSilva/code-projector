@@ -15,6 +15,8 @@
 This will create all the base of your api and return a command with all dependencies required.
 _use the command in a folder with only a package.json file_
 
+#### create simple crud
+
     codeProjector crud <crud name>
 
 This will make a crud in the folder with a name specified.
