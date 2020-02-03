@@ -4,20 +4,37 @@
 
 ## Installation
 
+---
+
     npm install -g koa-code-projector
+
+---
 
 ## How to use
 
-#### create base api
+#### Create base api
 
     codeProjector base
 
-This will create all the base of your api and return a command with all dependencies required.
+This will create all the base of your api and install the required dependencies.
 _use the command in a folder with only a package.json file_
 
-#### create simple crud
+#### Create simple crud
 
     codeProjector crud <crud name>
 
 This will make a crud in the folder with a name specified.
 _use this command in a folder with a base api_
+
+---
+
+## Versions
+
+> 1.0.0
+>
+> > - Initial
+>
+> 1.1.0
+>
+> > - Code improvements
+> > - Automatic installation of dependencies
